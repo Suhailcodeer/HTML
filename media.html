@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+</head>
+<body>
+    <!-- <h1>Random Picture</h1>
+
+    
+    <img src="https://picsum.photos/200" alt="This will be a Random image" width="200" height="150" loading="lazy"> -->
+
+    <!-- Picture tag for resposivness of page it is opening img in different screen size -->
+
+    <h1>Using resposive image according to screen size using picture tag</h1>
+    <picture>
+        <source srcset="https://picsum.photos/200/300
+        " media="(min-width :800px)">
+        <source srcset="https://picsum.photos/200" media="(max-width :799px)">
+        <img src="https://picsum.photos/seed/picsum/200/300" alt="resposive image">
+    </picture>
+</body>
+</html>

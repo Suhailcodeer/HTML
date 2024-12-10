@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+
+    <form action="/submit_form" method="post" enctype="application/x-www-form-urlencoded" name="contactForm" novalidate target="_blank">
+
+        <fieldset>
+            <legend>SignUp</legend>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email">
+            <br>
+            <br>
+    
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username">
+            <br>
+            <br>
+    
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            <br>
+
+            <label for="language">Select one of the programming language</label>
+            <input list="languages" id="language" name="languages">
+            <datalist id="languages">
+
+                <option value="java"></option>
+                <option value="js"></option>
+                <option value="python"></option>
+                <option value="c++"></option>
+
+
+            </datalist>
+            <br><br>
+            <label for="hobbies">Hobbies</label>
+            <textarea name="hobbies" id="hobbies" name="hobbies" ></textarea>
+            <br><br>
+             
+            <label for="selectNum"><strong>Select your Fav Number</strong></label>
+            <select name="selectNum" id="selectNum">
+
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="5">Five</option>
+            </select>
+            <br><br>
+
+            <label for="quantity"> Select a Quantity</label>
+            <input type="number" id="quantity" name="quantity" step="10"> <!--step use for how to increase or decrease value in which order in which we set some number or step-->
+            <br><br>
+
+            <label for="volumeCtrl">Volume Control</label>
+            <input type="range" id="volumeCtrl" name="volumeCtrl" step="2" min="2" max="200">
+            <br><br>
+
+            <label for="months"> Janurary</label>
+            <input type="radio" name="months" id="months">
+            <label for="months1"> Feberury</label>
+            <input type="radio" name="months" id="months1">
+            <label for="months2"> March</label>
+            <input type="radio" name="months" id="months2">
+
+            <br><br>
+            <!-- Months Year picker -->
+            <label for="monthsp">Select your Birth Year</label>
+            <input type="month" id="monthsp" name="monthsp">
+            <br><br>
+            <!-- Date picker -->
+            <label for="Datep">Select your Birth Year</label>
+            <input type="date" id="Datep" name="Datep">
+            <br><br>
+            <!-- Date time pickur -->
+            <label for="DateT">Select your Birth Year</label>
+            <input type="datetime-local" id="DateT" name="DateT">
+            <br><br>
+            <!-- color picker -->
+             
+            <label for="colorp">Select color</label>
+            <input type="color" name="colorp" id="colorp">
+            <br><br>
+            <!-- upload file using input filed -->
+             <label for="fileU">Select a file</label>
+             <input type="file" name="fileU" id="fileU">
+             <br><br>
+
+             <!-- add image in form -->
+              <input type="image" src="/submit button.jpeg" alt="submit" width="100" height="70">
+              <br><br>
+
+              <input type="hidden" name="hiddenfield" value="This is a hiddenfield">
+              <br><br>
+              <!-- Add check box option -->
+               <label for="Male">Male</label>
+               <input type="checkbox" name="Male" id="Male">
+               <label for="Female">Female</label>
+               <input type="checkbox" name="Female" id="Female">
+
+
+
+            
+
+            <br><br>
+            <button type="submit"> Submit</button>
+            <button type="reset"> Reset</button>
+
+        </fieldset>
+      
+    </form>
+</body>
+</html>
