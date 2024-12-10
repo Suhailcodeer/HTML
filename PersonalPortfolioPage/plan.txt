@@ -1,0 +1,53 @@
+Home Page
+
+Nav-bar
+ - Home
+ - Contract
+ - Resume
+
+ Intro secton
+  - Heading
+  - Image
+  - About Me
+
+Experience
+ - List all my Experience
+
+Skills
+ - List all my Skills
+
+Achievements
+ - List all my Achievements
+
+Footer
+ - Home
+ - Contract
+ - Resume
+ - Social
+
+2. Contact Us Page
+
+ Nav-bar
+ - Home
+ - Contract
+ - Resume
+
+Contact Me Form
+ - First Name
+ - Last Name
+ - Email
+ - Phone
+ - Submit
+
+Social Links
+ - LinkedIn
+ - Youtube
+
+Embed Map
+ - Agra
+
+Footer
+ - Home
+ - Contract
+ - Resume
+ - Social

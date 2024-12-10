@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture Tag Example</title>
+</head>
+<body>
+    <h1>Responsive Image using the Picture Tag</h1>
+    <picture>
+        <!-- Load this image if the screen width is at least 800px -->
+        <source srcset="https://picsum.photos/seed/picsum/200/300" media="(min-width: 800px)">
+        <!-- Load this image if the screen width is less than 800px -->
+        <source srcset="https://picsum.photos/id/236/200/200" media="(max-width: 799px)">
+        <!-- Default image for browsers that don't support the <picture> tag -->
+        <img src="https://picsum.photos/200/300" alt="Responsive image">
+    </picture>
+</body>
+</html>
